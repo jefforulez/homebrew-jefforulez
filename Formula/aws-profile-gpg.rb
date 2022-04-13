@@ -12,7 +12,7 @@ class AwsProfileGpg < Formula
 
   head "https://github.com/jefforulez/aws-profile-gpg.git"
 
-  depends_on "python@3.x"
+  depends_on "python@3.10"
   depends_on "gpgme"
 
   resource "pygpgme" do
